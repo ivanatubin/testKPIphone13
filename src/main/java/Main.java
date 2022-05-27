@@ -1,5 +1,4 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -31,7 +30,6 @@ public class Main {
 
         WebElement prihvati = driver.findElement(By.xpath("//*[@id=\"cookieConsentHolder\"]/div/div/div[2]/input"));
         prihvati.click();
-
 
         WebElement el3 = driver.findElement(By.xpath("//*[@id=\"adDescription7321776\"]/div/section[2]/div[1]/div[1]/a"));
         el3.click();
